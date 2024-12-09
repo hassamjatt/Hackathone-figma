@@ -80,7 +80,8 @@ export default function Products(){
                 <Image
                 alt="CRAD"
                   src={card.image}
-                  style={{ width: "18rem", height: "18rem" }}
+                  width={100}
+                  height={200}
                   className="card-img-top"
                   ></Image>
                 <div className="card-body">
